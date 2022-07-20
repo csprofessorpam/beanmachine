@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar h2{
+    color: red;
+    letter-spacing: 5px;
+    display: none;
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+a{
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.login{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 15px;
+}
+
+
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+} 
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#logo{
+    width: 50%;
+}
+
+h2{
+    padding: 20px 0;
+}
+
+button{
+    border-radius: 50px;
+    background-color: red;
+    width: 30px;
+}
+
+input{
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: rgb(242, 240, 240);
+    
+}
+
+.about{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0 20px 0;
+}
+
+.about p{
+    padding: 10px;
+}
+
+.red{
+    color: red;
+}
+
+.coffees{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    border: 1px solid blue;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:beige;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.box img{
+    width: 192px;
+    margin-bottom: 15px;
+}
+
+.box button{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 50px;
+    text-align: center;
+    width: 120px;
+    margin: 10px;
+}
+
+
+@media (max-width: 572px){
+
+    .navbar h2{
+        display: block;
+    }
+
+    /* .coffees{
+        flex-wrap: wrap;
+    } */
+
+}
